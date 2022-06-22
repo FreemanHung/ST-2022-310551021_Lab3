@@ -16,8 +16,8 @@ class PriorityQueueTest {
 
     static Stream<Arguments> lab3() {
         return Stream.of(
-                Arguments.of(new int[]{1,4,3,5,2}, new int[]{1,2,5,4,3}),
-                Arguments.of(new int[]{4,4,6,4,4}, new int[]{4,4,6,4,4}),
+                Arguments.of(new int[]{1,4,3,5,2}, new int[]{1,2,3,4,5}),
+                Arguments.of(new int[]{4,4,6,4,4}, new int[]{4,4,4,4,6}),
                 Arguments.of(new int[]{-14,6,-23,5,6}, new int[]{-23,-14,5,6,6}),
                 Arguments.of(new int[]{1,9,5,4,6}, new int[]{1,4,5,6,9}),
                 Arguments.of(new int[]{9,8,7,6,5}, new int[]{5,6,7,8,9})
